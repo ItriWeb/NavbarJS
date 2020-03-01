@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+}
+.navbar-top {
+    width:100%;
+    min-height: 50px;
+    background: green;
+    display: flex;
+    justify-content: space-between;
+}
+.menudrop {
+    height: 60px;
+    width: 60px;
+    border: 2px solid grey;
+    display: flex;
+    margin: 5px 5px;
+    position: relative;
+}
+.fa-bars {
+    position: absolute;
+    font-size: 50px;
+    top: 9%;
+    LEFT: 15%;
+    color: #9e8d8d;
+    
+}
+img {
+    max-width: 200px;
+}
+
+.navbar-links {
+    background: grey;
+    padding: 10px;
+    height: 0;
+    overflow: hidden;
+    transition: height 1s;
+}
+.menuappear{
+    height: 180px;
+    transition: height 1s;
+}
+.navbar-item{
+    padding: 10px 0px;
+    transition: all 2sec ease;
+    font-size: 20px;
+}
+a{
+ text-decoration: none;   
+}
+.navbar-item:hover {
+    padding: 10px 10px;
+    background-color: darkcyan;
+}
